@@ -4,12 +4,13 @@ int add(int a,int b){
 }
 
 int main(){
-    int a, b, result;
+    int a, b, results;
     printf("enter first number:");
     scanf("%d", &a);
     printf ("enter second number:");
     scanf ("%d", &b);
-    result = add(a,b);
-    printf("sum=%d \n", result);
+    results = add(a,b);
+    printf("sum=%d \n", results);
     return 0;
+
 }
